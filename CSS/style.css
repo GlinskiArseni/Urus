@@ -161,6 +161,7 @@ background: linear-gradient(181.77deg, #FF5017 2.24%, #FF6837 99.25%);
 font-family: "Inter", sans-serif;
 font-weight: 900;
 font-style: normal;
+width: 100%;
 }
 .info_gallery{
     display: flex;
@@ -168,7 +169,7 @@ font-style: normal;
     align-items: center;
     gap: 20px;
     border-radius: 20px;
-    flex-wrap: wrap;
+    
 }
 
 .info_gallery img{
@@ -197,20 +198,24 @@ width: 100%;
 margin: 0 auto;
 }
 
-.gallery_box{
-padding: 170px 50px;]
+.gallery-box{
+padding: 170px 50px;
 display: flex;
 justify-content: space-between;
 gap: 20px;
 text-align: center;
 }
 
-.gallery_box img{
+.gallery-box img{
     max-width: 100%;
 border-radius: 20px; 
 margin-bottom: 20px;
-font-size: 36px;
-color: #fff;
+
+}
+
+.gallery-box_text{
+    font-size: 36px;
+    color: #fff;
 }
 
 .contacts{
@@ -227,10 +232,9 @@ color: #fff;
 }
 
 .contacts_box{
-    display: flex;
     justify-content: space-between;
-    gap: 40px 200px;
-    padding-left: 300px;
+    gap: 0 200px;
+    padding-left: 150px;
 }
 .contacts_info{
 max-width: 565px;
@@ -240,6 +244,9 @@ max-width: 565px;
     color: #bcbcbc;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+.contacts-form{
+    display:flex;
 }
 
 .contacts_text,
@@ -253,9 +260,9 @@ color: #fff;
     margin-bottom: 20px;
     max-width: 477px;
 }
-
-.form{
-    flex-basis: 594px;
+.contacts_form-form{
+    width: 100%;
+    padding-left: 300px;
 }
 
 .form_input{
@@ -278,6 +285,16 @@ border-bottom: 1px solid #fff;
 .contacts_text-rules{
 padding-top: 77px;
 font-size: 14px;
+}
+
+.order_form{
+    max-width: 594px;
+    width: 100%;
+    padding: 30px 60px;
+background: linear-gradient(181.77deg, #FF5017 2.24%, #FF6837 99.25%);
+font-family: "Inter", sans-serif;
+font-weight: 900;
+font-style: normal;
 }
 
 .footer{
