@@ -7,3 +7,4 @@
 ## Look at the characteristics
 ![usus 2](https://github.com/user-attachments/assets/8ed9ee18-303f-4205-81d7-01c471ed2e59)
 ## And bonus buy keychain
+![usus](https://github.com/user-attachments/assets/ba8e99e7-df91-4f2b-81c8-0e491b01d15f)
