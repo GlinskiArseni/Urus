@@ -221,16 +221,21 @@ margin-bottom: 20px;
     background-color: #13171C;
 }
 .content_brelok{
-    display: flex
+    display: flex;
+    justify-content: center;
 }
 .count_brelok{
     padding-left: 240px;
     color:#fff
 }
 .title_brelok{
-    color: #fff;
+    color: #FF5017;
     text-align: center;
-    padding: 35px 15px 15px;
+    padding: 45px 25px 20px;
+    font-size: 50px;
+}
+.Order_Order{
+    font-size: 25px;
 }
 
 .info_brelok{
@@ -320,13 +325,21 @@ font-family: "Inter", sans-serif;
 font-weight: 900;
 font-style: normal;
 }
-
+.Follow_footer{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
 .footer{
     text-align: center;
-    padding: 15px 0 90px;
+    padding: 45px 5px 90px;
     font-size: 14px;
     color: #fff;
-    background-color: #13171C;
+    background: linear-gradient(180deg, #13171C 10%, #fff 90%);
+}
+.footer_images{
+    display: column;
+    text-align: right;
 }
 
 @media(max-width:1200px){
@@ -503,8 +516,8 @@ top: 0;
             flex-wrap: wrap;
         }
         .img_brelok{
-            width: 100%;
-            height: 100%;
+            width: 75%;
+            height: 75%;
         }
     }
     @media(max-width:450px){
