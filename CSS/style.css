@@ -330,10 +330,11 @@ font-style: normal;
     font-size: 15px;
 }
 .footer{
+    height: 100%;
     text-align: center;
     font-size: 14px;
     color: #fff;
-    background: linear-gradient(180deg, #13171C 10%, #fff 90%);
+    background: linear-gradient(180deg, #13171C 0%, #fff 100%);
 }
 .footer_images{
     margin-top: 65px;
@@ -361,16 +362,14 @@ font-style: normal;
 
 }
 .column{
-    float: left;
+    float:left;
   width: 33.33%;
 }
-.footer::after{
-    content: "";
-  display: table;
-  clear: both;
-}
+
 .footer_link{
+height: 100%;
     color: black;
+    margin: -1px 565px 0px;
 }
 
 @media(max-width:1200px){
@@ -557,5 +556,41 @@ top: 0;
         }
         .count_brelok{
             padding-left: 130px;
+        }
+    }
+    @media(max-width:1250px){
+        .footer {
+            background: linear-gradient(180deg, #13171C 0%, #fff 110%);
+        }
+    }
+    @media(max-width:840px){
+        .footer{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .column{
+            width: 70%;
+        }
+        .footer_link{
+            margin: -1px 0px 0px;
+        }
+    }
+
+    @media(max-width:1400px){
+        .footer_link{
+            margin: -1px 400px 0px;
+        }
+        
+    }
+    @media(max-width:1070px){
+        .footer_link{
+            margin: -1px 290px 0px;
+        }
+        
+    }
+    @media(max-width:840px){
+        .footer_link{
+            margin: -1px 0px 0px;
         }
     }
